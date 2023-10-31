@@ -70,3 +70,67 @@ nav *:hover {
 .segundo {
     order: -1;
 }
+
+#container-main {
+    display: grid;
+    grid-template-columns: auto 25% 25%;
+    grid-template-rows: 50% 50%;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 48px;
+    grid-template-areas: "imagen texto1 texto1"
+                         "imagen texto2 video";
+    gap: 16px;
+    /* row-gap
+       column-gap */
+}
+
+main {
+    margin-top: 48px;
+}
+
+.container-image {
+    /*grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;*/
+    grid-area: imagen;
+    background-color: bisque;
+}
+
+.container-image * {
+    width: 100%;
+    height: 100%;
+}
+
+.primer-parrafo {
+    /*grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;*/
+    grid-area: texto1;
+    background-color: burlywood;
+}
+
+.segundo-parrafo {
+    /*grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;*/
+    grid-area: texto2;
+    background-color: yellow;
+}
+
+.video {
+    /*grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;*/
+    grid-area: video;
+    background-color: red;
+}
+
+.video * {
+    width: 100%;
+    height: 100%;
+}
