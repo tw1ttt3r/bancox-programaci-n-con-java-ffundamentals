@@ -10,7 +10,7 @@
 }
 
 body {
-    margin: 8px 16px 8px 16px; /* top right bottom left */
+    /* margin: 8px 16px 8px 16px; top right bottom left */
     /* margin-top: 8px;
     margin-right: 16px;
     margin-bottom: 8px;
@@ -23,10 +23,10 @@ body {
     /* asignación de estilos */
     /* nombrepropiedad : valorpropiedad ; */
     /* background-color: rgb(98, 45, 9); red, green, blue - 0 a 255 */
-    background-color: gray; /*hexadecimales*/
-    font-size: 24px;
-    display: inline-block;
-    width: 100%;
+    /*background-color: gray;*/ /*hexadecimales*/
+    /* font-size: 24px; */
+    /* display: inline-block; */
+    /* width: 100%; */
 }
 
 /* selector de tag */
@@ -38,10 +38,10 @@ body {
 /* selector universal anidado */
 
 nav {
-    padding: 4px;/* top right bottom left */
-    display: flex;
-    column-gap: 16px;
-    justify-content: space-evenly;
+    /*padding: 4px;*//* top right bottom left */
+    /* display: flex; */
+    /* column-gap: 16px;
+    justify-content: space-evenly; */
 }
 
 nav * {
@@ -72,7 +72,7 @@ nav *:hover {
 }
 
 #container-main {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto 25% 25%;
     grid-template-rows: 50% 50%;
     height: 600px;
@@ -158,10 +158,16 @@ main {
     width: 50%;
 }
 
-.container-final :nth-child(1) {
+/* .container-final :nth-child(1) {
     display: flex;
    justify-content: center; 
 }
+
+.container-final :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+   justify-content: center; 
+} */
 
 .container-final form {
     display: flex;
@@ -245,4 +251,10 @@ main {
     body {
         background-color: beige;
     }
+}
+
+/* bootstrap extended classes  */
+
+.m-4\/5 {
+    margin: 72px;
 }
