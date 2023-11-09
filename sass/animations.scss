@@ -1,0 +1,63 @@
+@keyframes cambioColor {
+  0% {
+    background-color: azure;
+  }
+
+  25% {
+    background-color: blanchedalmond;
+  }
+
+  50% {
+    background-color:crimson;
+  }
+
+  75% {
+    background-color: wheat;
+  }
+
+  100% {
+    background-color: azure;
+  }
+}
+
+@keyframes colorOptionMenu {
+  0% {
+    color: green;
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+@keyframes rotateImage {
+  0% {
+    rotate: 0;
+  }
+  
+  25% {
+    rotate: (90deg);
+  }
+  
+  50% {
+    rotate: (180deg);
+  }
+  
+  75% {
+    rotate: (270deg);
+  }
+
+  100% {
+      rotate: (360deg);
+  }
+}
+
+@keyframes scaleChange {
+  50% {
+    transform: scale(0.5);
+  }
+}
