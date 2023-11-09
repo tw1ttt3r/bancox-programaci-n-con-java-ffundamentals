@@ -148,10 +148,10 @@ main {
   animation-iteration-count: infinite;
 }
 
-.container-image {
-  animation-name: rotateImage;
-  animation-duration: 1s;
-}
+// .container-image {
+//   animation-name: rotateImage;
+//   animation-duration: 1s;
+// }
 
 .option {
   a {
@@ -165,7 +165,7 @@ main {
   }
 }
 
-button, iframe {
+button/*, iframe*/ {
   animation-name: scaleChange;
   animation-duration: 1s;
 }
